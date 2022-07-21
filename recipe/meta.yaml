@@ -1,4 +1,4 @@
-{% set version = "0.7.0" %}
+{% set version = "1.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rtweet_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rtweet/rtweet_{{ version }}.tar.gz
-  sha256: 36d9ebb2e7b9d26bb714908b52479ed64535e630c6e8b4ca48c6d52d6adfeb16
+  sha256: 3de175a6faa49fd585fb283d970f06279528e03ff562c5928008d12f98c00db6
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -59,9 +59,7 @@ about:
   home: https://CRAN.R-project.org/package=rtweet
   license: MIT
   license_file: LICENSE
-  summary: 'An implementation of calls designed to collect and organize Twitter data via Twitter''s
-    REST and stream Application Program Interfaces (API), which can be found at the
-    following URL: <https://developer.twitter.com/en/docs>.'
+  summary: "An implementation of calls designed to collect and organize Twitter data via Twitter's REST and stream Application Program Interfaces (API), which can be found at the following URL: <https://developer.twitter.com/en/docs>."
   license_family: MIT
 
 extra:
