@@ -1,13 +1,17 @@
 About r-rtweet
 ==============
 
-Home: https://CRAN.R-project.org/package=rtweet
+Home: https://docs.ropensci.org/rtweet/
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rtweet-feedstock/blob/main/LICENSE.txt)
 
 Summary: An implementation of calls designed to collect and organize Twitter data via Twitter's REST and stream Application Program Interfaces (API), which can be found at the following URL: <https://developer.twitter.com/en/docs>.
+
+Development: https://github.com/ropensci/rtweet/
+
+Documentation: https://docs.ropensci.org/rtweet/reference/index.html
 
 Current build status
 ====================
