@@ -1,11 +1,11 @@
-About r-rtweet
-==============
+About r-rtweet-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rtweet-feedstock/blob/main/LICENSE.txt)
 
 Home: https://docs.ropensci.org/rtweet/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rtweet-feedstock/blob/main/LICENSE.txt)
 
 Summary: An implementation of calls designed to collect and organize Twitter data via Twitter's REST and stream Application Program Interfaces (API), which can be found at the following URL: <https://developer.twitter.com/en/docs>.
 
