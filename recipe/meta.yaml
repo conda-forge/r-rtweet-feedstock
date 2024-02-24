@@ -1,4 +1,4 @@
-{% set version = "1.2.1" %}
+{% set version = "2.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rtweet_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rtweet/rtweet_{{ version }}.tar.gz
-  sha256: 7960782397ba4b852dc2d450a8236bb619d01f229c1f1b2af7e7efc2b6cad6a3
+  sha256: 82c4fd4ad02782396ba794431ca7cd567475d3cb1b19a2f733e0bd5a545081f0
 
 build:
   merge_build_host: true  # [win]
